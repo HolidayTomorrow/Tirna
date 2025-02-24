@@ -24,7 +24,7 @@ DATA_DIR = BASE_DIR.parent / 'data' / 'web'
 SECRET_KEY = os.getenv('SECRET_KEY', 'change-me')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = bool(int(os.getenv('DEBUG', 0)))
 
 ALLOWED_HOSTS = []
 
