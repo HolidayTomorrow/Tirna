@@ -1,6 +1,6 @@
-/djangoapp/static/
-/djangoapp/media/
-/djangoapp/project/local_settings.py
+/Tirna/static/
+/Tirna/media/
+/Tirna/Tirna/local_settings.py
 gunicorn-error-log
 __localcode
 /data/
